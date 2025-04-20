@@ -23,12 +23,12 @@ Aplikasi ini memungkinkan pengguna untuk mencatat dan mengelola koleksi buku mer
 
 1. Clone repository ini
    ```
-   git clone https://github.com/username/pertemuan3.git
+   git clone https://github.com/himuraaaaa/pemrograman_web_itera_122140202.git
    ```
 
 2. Masuk ke direktori proyek
    ```
-   cd pertemuan3
+   cd pemrograman_web_itera_122140202/Fayyadh Abdillah_122140202_pertemuan3/pertemuan3
    ```
 
 3. Install dependencies
@@ -76,14 +76,14 @@ src/
 
 ## Screenshot Aplikasi
 
-![Screenshot Halaman Utama]
+Screenshot Halaman Utama
 ![alt text](image.png)
 ![alt text](image-5.png)
 ![alt text](image-2.png)
 ![alt text](image-4.png)
-![Screenshot Modal Tambah Buku]
+Screenshot Modal Tambah Buku
 ![alt text](image-3.png)
-![Screenshot Halaman Statistik]
+Screenshot Halaman Statistik
 ![alt text](image-6.png)
 
 ## Laporan Testing

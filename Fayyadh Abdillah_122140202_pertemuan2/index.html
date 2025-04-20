@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Personal Dashboard</h1>
+            <div class="date-time" id="dateTime"></div>
+            <p>Selamat datang! Atur tugas-tugas Anda hari ini.</p>
+        </header>
+        
+        <div class="dashboard-card">
+            <div class="card-header">
+                <h2 class="card-title">To-Do List</h2>
+            </div>
+            
+            <form class="todo-form" id="todoForm">
+                <input type="text" class="todo-input" id="todoInput" placeholder="Tambahkan tugas baru..." required>
+                <button type="submit" class="btn btn-primary">Tambah</button>
+            </form>
+            
+            <div class="filter-container">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="active">Aktif</button>
+                <button class="filter-btn" data-filter="completed">Selesai</button>
+            </div>
+            
+            <ul class="todo-list" id="todoList">
+                <!-- Todo items will be added here dynamically -->
+            </ul>
+            
+            <div class="empty-state" id="emptyState">
+                <p>Belum ada tugas. Tambahkan tugas pertama Anda!</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 Personal Dashboard</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

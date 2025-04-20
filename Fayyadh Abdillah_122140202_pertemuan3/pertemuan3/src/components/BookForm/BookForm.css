@@ -1,0 +1,99 @@
+.book-form-container {
+  background: #fff9f0; /* Background cream terang */
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e8d9c5;
+}
+
+.book-form-container h2 {
+  color: #8d6e63; /* Cokelat sedang untuk judul */
+  margin-top: 0;
+  border-bottom: 2px solid #e8d9c5;
+  padding-bottom: 12px;
+}
+
+.book-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #795548; /* Cokelat untuk label */
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 12px;
+  border: 1px solid #e0ceb0; /* Border input cream kecokelatan */
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #fffaf0; /* Background input cream sangat terang */
+  color: #5d4037;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #c7a17a; /* Border fokus cokelat muda */
+  box-shadow: 0 0 0 2px rgba(199, 161, 122, 0.2);
+}
+
+.form-group input.error,
+.form-group select.error,
+.form-group textarea.error {
+  border-color: #d5593e; /* Border error orange kemerahan */
+}
+
+.error-message {
+  color: #d5593e; /* Teks error orange kemerahan */
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.cancel-button,
+.submit-button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.cancel-button {
+  background-color: #f1e8db; /* Background cream untuk batal */
+  color: #8d6e63; /* Teks cokelat untuk batal */
+}
+
+.submit-button {
+  background-color: #c7a17a; /* Background cokelat muda untuk submit */
+  color: white;
+}
+
+.cancel-button:hover {
+  background-color: #e8d9c5; /* Hover warna cream yang lebih gelap */
+}
+
+.submit-button:hover {
+  background-color: #b28e68; /* Hover warna cokelat yang lebih gelap */
+}

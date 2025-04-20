@@ -1,0 +1,197 @@
+.book-list-container {
+  margin-top: 20px;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.list-header h2 {
+  margin: 0;
+  color: #8d6e63; /* Warna judul cokelat */
+  font-weight: 600;
+}
+
+.add-button {
+  padding: 10px 18px;
+  background-color: #c7a17a; /* Background cokelat muda */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.add-button:hover {
+  background-color: #b28e68; /* Hover warna cokelat yang lebih gelap */
+}
+
+.add-button::before {
+  content: "+";
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 50px;
+  background: #fff9f0; /* Background cream terang */
+  border-radius: 10px;
+  color: #a1887f; /* Teks cokelat muda */
+  border: 1px dashed #e0d2c3; /* Border cream yang lebih gelap */
+}
+
+/* src/components/BookItem/BookItem.css */
+.book-item {
+  background: #fff9f0; /* Background cream terang */
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 1px solid #e8d9c5; /* Border cream */
+}
+
+.book-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.book-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.book-title {
+  margin: 0;
+  font-size: 18px;
+  color: #5d4037; /* Cokelat gelap untuk judul */
+  flex: 1;
+  font-weight: 600;
+}
+
+.book-author {
+  margin: 0 0 12px 0;
+  color: #8d6e63; /* Cokelat sedang untuk penulis */
+  font-size: 14px;
+}
+
+.book-description {
+  font-size: 14px;
+  color: #795548; /* Cokelat untuk deskripsi */
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+.status-badge {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 500;
+}
+
+.status-owned {
+  background-color: #90a955; /* Hijau untuk dimiliki */
+}
+
+.status-reading {
+  background-color: #70a2aa; /* Biru untuk sedang dibaca */
+}
+
+.status-to-buy {
+  background-color: #d49a6a; /* Orange untuk ingin dibeli */
+}
+
+.book-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.edit-button,
+.delete-button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.edit-button {
+  background-color: #f1e8db; /* Background cream untuk edit */
+  color: #8d6e63; /* Teks cokelat untuk edit */
+}
+
+.delete-button {
+  background-color: #fbe9e7; /* Background merah muda terang untuk hapus */
+  color: #d5593e; /* Teks merah kecoklatan untuk hapus */
+}
+
+.edit-button:hover {
+  background-color: #e8d9c5; /* Hover warna cream yang lebih gelap */
+}
+
+.delete-button:hover {
+  background-color: #f9dbd7; /* Hover warna merah muda yang lebih gelap */
+}
+
+.confirm-delete {
+  padding: 25px;
+  text-align: center;
+}
+
+.confirm-delete h3 {
+  margin-top: 0;
+  color: #d5593e; /* Merah kecoklatan untuk judul konfirmasi */
+}
+
+.confirm-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.cancel-button {
+  padding: 10px 16px;
+  background-color: #f1e8db; /* Background cream untuk batal */
+  color: #8d6e63; /* Teks cokelat untuk batal */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.confirm-button {
+  padding: 10px 16px;
+  background-color: #d5593e; /* Background merah kecoklatan untuk konfirmasi */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cancel-button:hover {
+  background-color: #e8d9c5; /* Hover warna cream yang lebih gelap */
+}
+
+.confirm-button:hover {
+  background-color: #c15040; /* Hover warna merah yang lebih gelap */
+}
